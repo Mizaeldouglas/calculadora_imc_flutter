@@ -60,10 +60,13 @@ class ResultsPage extends StatelessWidget {
                     imcResult,
                     style: kBMITextStyle,
                   ),
-                  Text(
-                    interpretation,
-                    textAlign: TextAlign.center,
-                    style: kBodyTextStyle,
+                  Padding(
+                    padding: const EdgeInsets.all(9.0),
+                    child: Text(
+                      interpretation,
+                      textAlign: TextAlign.center,
+                      style: kBodyTextStyle,
+                    ),
                   ),
                 ],
               ),
