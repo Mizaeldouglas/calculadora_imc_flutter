@@ -1,7 +1,10 @@
+import 'package:calculadora_imc_flutter/calculator_brain.dart';
+import 'package:calculadora_imc_flutter/components/buttom_button.dart';
 import 'package:calculadora_imc_flutter/components/icon_content.dart';
 import 'package:calculadora_imc_flutter/components/reusable_card.dart';
 import 'package:calculadora_imc_flutter/components/round_icon_button.dart';
 import 'package:calculadora_imc_flutter/constants.dart';
+import 'package:calculadora_imc_flutter/screens/results_page.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -218,6 +221,21 @@ class _InputPageState extends State<InputPage> {
                 ),
               ],
             ),
+          ),
+          ButtomButton(
+            onTap: () {
+              CalculatorBrain calc =
+                  CalculatorBrain(peso: peso, altura: altura);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => ResultsPage(
+                        imcResult: calc.calcImc(),
+                        resultText: calc.getResult(),
+                        interpretation: calc.getInterpretation())),
+              );
+            },
+            buttonTitle: "Calcular IMC",
           )
         ],
       ),
