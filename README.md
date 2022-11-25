@@ -5,7 +5,6 @@
 - Antes de iniciar o projeto, você vai precisar das seguintes ferramentas: 
     - ✔️ [VsCode](https://code.visualstudio.com/download);
     - ✔️ [Git](https://git-scm.com/)
-    - ✔️ [NodeJS](https://nodejs.org/en/download/)
     - ✔️ [SDK Flutter](https://docs.flutter.dev/get-started/install)
 
 <br>
