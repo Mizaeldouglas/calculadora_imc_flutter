@@ -35,7 +35,7 @@ https://github.com/Mizaeldouglas/calculadora_imc_flutter.git
 
 # ![screenshot 4](https://user-images.githubusercontent.com/89351018/203880899-9a408587-8b32-4ff0-8d23-ddf649dbabed.jpg)
 
-# ![screenshot 2](https://user-images.githubusercontent.com/89351018/203881182-97b22d4d-7de7-4f3e-827b-06db65ebf4e5.jpg)
+# ![Screenshot_20221124-225725](https://user-images.githubusercontent.com/89351018/203885220-5c16b3d9-b5df-406a-8e9e-3ef078e937a6.jpg)
 
 # ![screenshot 3](https://user-images.githubusercontent.com/89351018/203881183-7c81874f-dd97-4f5e-b554-10dee64aa713.jpg)
 
